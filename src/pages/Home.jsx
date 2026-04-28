@@ -261,7 +261,7 @@ export default function Home() {
                     <p className="text-slate-700 leading-relaxed">{product.composition}</p>
                   </div>
                   <div className="flex items-center justify-between gap-4">
-                    <span className="text-emerald-600 font-bold text-xl">₹249</span>
+                    <span className="text-emerald-600 font-bold text-xl"></span>
                     <Link
                       to="/products"
                       className="inline-flex items-center gap-2 text-sm font-bold text-emerald-600 hover:text-emerald-700"

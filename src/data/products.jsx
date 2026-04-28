@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Rejumore-OD",
-    image: "/products/rejumore.jpeg",
+    image: "/products/rejumore-od.jpeg",
     description: "Advanced nerve care formula for diabetic neuropathy and nutritional deficiency",
     composition: "Methylcobalamin, Alpha Lipoic Acid, Vitamin B1, Vitamin B6 and Folic Acid",
     uses: [
@@ -68,7 +68,7 @@ export const products = [
     id: 6,
     name: "Glimecad MP1",
     image: "/products/glimecad-mp1.jpeg",
-    description: "Triple combination for effective Type 2 Diabetes control",
+    description: "Triple combination for effective Type 2 Diabetes control and metabolic support",
     composition: "Metformin HCl PR, Glimepiride & Pioglitazone",
     uses: [
       "Type 2 Diabetes",
@@ -107,13 +107,78 @@ export const products = [
     id: 9,
     name: "Glimecad M1",
     image: "/products/glimecad-m1.jpeg",
-    description: "Standard combination therapy for diabetes management",
+    description: "Standard combination therapy for diabetes management and blood sugar control",
     composition: "Glimepiride & Metformin HCl Prolonged Release",
     uses: [
       "Blood Sugar Management",
       "Diabetes Control",
       "Preventive Care",
       "Lifestyle Support"
+    ]
+  },
+  {
+    id: 10,
+    name: "Acetrend-SP",
+    image: "/products/acetrend-sp.jpeg",
+    description: "Pain relief and anti-inflammatory combination for musculoskeletal conditions",
+    composition: "Aceclofenac, Paracetamol & Serratiopeptidase",
+    uses: [
+      "Pain Relief",
+      "Inflammation Reduction",
+      "Muscle Pain",
+      "Post-operative Swelling"
+    ]
+  },
+  {
+    id: 11,
+    name: "Calchalk",
+    image: "/products/calchalk.jpeg",
+    description: "Bone health supplement supporting calcium absorption and strength",
+    composition: "Calcium Citrate, Magnesium, Zinc & Vitamin D3",
+    uses: [
+      "Bone Strength",
+      "Calcium Deficiency",
+      "Osteoporosis Support",
+      "Joint Health"
+    ]
+  },
+  {
+    id: 12,
+    name: "Moxtrack-CV 625",
+    image: "/products/moxtrack-cv.jpeg",
+    description: "Broad-spectrum antibiotic with probiotic support for bacterial infections",
+    composition: "Amoxycillin, Potassium Clavulanate & Lactic Acid Bacillus",
+    uses: [
+      "Bacterial Infections",
+      "Respiratory Infections",
+      "Urinary Tract Infections",
+      "Prevention of Antibiotic-associated Diarrhea"
+    ]
+  },
+  {
+    id: 13,
+    name: "Sitablock-DM",
+    image: "/products/sitablock-dm.jpeg",
+    description: "Combination therapy for effective blood sugar control in type 2 diabetes",
+    composition: "Dapagliflozin, Sitagliptin & Metformin Hydrochloride (ER)",
+    uses: [
+      "Type 2 Diabetes Management",
+      "Blood Sugar Control",
+      "Improved Insulin Sensitivity",
+      "Reduced Glucose Reabsorption"
+    ]
+  },
+  {
+    id: 14,
+    name: "Voglipran GM 3.3",
+    image: "/products/voglipran-gm-3.3.jpeg",
+    description: "Triple combination anti-diabetic medication for enhanced glycemic control",
+    composition: "Glimepiride, Metformin Hydrochloride (SR) & Voglibose",
+    uses: [
+      "Type 2 Diabetes",
+      "Post-meal Blood Sugar Control",
+      "Improved Insulin Secretion",
+      "Delayed Carbohydrate Absorption"
     ]
   }
 ];

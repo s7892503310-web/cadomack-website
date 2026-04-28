@@ -43,7 +43,7 @@ export default function Footer({ scrollToSection }) {
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Cadomack Pharmaceuticals India Pvt Ltd. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Enlivo Global Tech Solutions Pvt Ltd. All rights reserved.</p>
           <p className="mt-4 md:mt-0">Designed for Healthcare Excellence</p>
         </div>
       </div>

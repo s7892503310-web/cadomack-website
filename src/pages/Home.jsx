@@ -12,9 +12,9 @@ const categories = [
 
 const therapeuticSegments = [
   { title: 'Diabetes Care', slug: 'diabetes-care' },
-  { title: 'Pain Management', slug: 'pain-management' },
+  { title: 'General Medicine', slug: 'general-medicine' },
   { title: 'Antibiotics', slug: 'antibiotics' },
-  { title: 'Nutraceuticals', slug: 'nutraceuticals' },
+  { title: 'Gynecology', slug: 'gynecology' },
 ];
 
 export default function Home() {
@@ -69,11 +69,11 @@ export default function Home() {
                 <div className="mt-6 grid gap-4 sm:grid-cols-2">
                   <div className="rounded-3xl bg-slate-950/90 p-5 text-white shadow-xl">
                     <p className="text-sm uppercase tracking-[0.25em] text-slate-300">Trusted Since</p>
-                    <p className="text-3xl font-black mt-3">2012</p>
+                    <p className="text-3xl font-black mt-3">2023</p>
                   </div>
                   <div className="rounded-3xl bg-slate-950/90 p-5 text-white shadow-xl">
-                    <p className="text-sm uppercase tracking-[0.25em] text-slate-300">Global Reach</p>
-                    <p className="text-3xl font-black mt-3">30+ Countries</p>
+                    <p className="text-sm uppercase tracking-[0.25em] text-slate-300">Active in</p>
+                    <p className="text-3xl font-black mt-3">Karnataka</p>
                   </div>
                 </div>
               </div>

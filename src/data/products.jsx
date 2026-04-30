@@ -4,7 +4,7 @@ export const products = [
     name: "Rejumore-OD",
     image: "/products/rejumore-od.jpeg",
     description: "Advanced nerve care formula for diabetic neuropathy and nutritional deficiency",
-    category: "Diabetes Care",
+    category: "General Medicine",
     composition: "Methylcobalamin, Alpha Lipoic Acid, Vitamin B1, Vitamin B6 and Folic Acid",
     uses: [
       "Diabetic Neuropathy",
@@ -18,7 +18,7 @@ export const products = [
     name: "Acetrend P",
     image: "/products/acetrend-p.jpeg",
     description: "Effective pain and fever relief for acute and chronic conditions",
-    category: "Pain Management",
+    category: "General Medicine",
     composition: "Aceclofenac & Paracetamol",
     uses: [
       "Pain Management",
@@ -130,7 +130,7 @@ export const products = [
     name: "Acetrend-SP",
     image: "/products/acetrend-sp.jpeg",
     description: "Pain relief and anti-inflammatory combination for musculoskeletal conditions",
-    category: "Pain Management",
+    category: "General Medicine",
     composition: "Aceclofenac, Paracetamol & Serratiopeptidase",
     uses: [
       "Pain Relief",
@@ -193,6 +193,132 @@ export const products = [
       "Post-meal Blood Sugar Control",
       "Improved Insulin Secretion",
       "Delayed Carbohydrate Absorption"
+    ]
+  },
+  {
+    id: 15,
+    name: "Macktel-40",
+    image: "/products/macktel-40.jpeg",
+    description: "Antihypertensive medication used for managing high blood pressure and cardiovascular risk",
+    category: "Hypertension",
+    composition: "Telmisartan Tablets IP 40mg",
+    uses: [
+      "Hypertension (High Blood Pressure)",
+      "Cardiovascular Risk Reduction",
+      "Heart Health Management",
+      "Stroke Prevention"
+    ]
+  },
+  {
+    id: 16,
+    name: "Macktel-H",
+    image: "/products/macktel-h.jpeg",
+    description: "Combination therapy for effective control of high blood pressure",
+    category: "Hypertension",
+    composition: "Telmisartan & Hydrochlorothiazide Tablets IP",
+    uses: [
+      "Hypertension Management",
+      "Fluid Retention Control",
+      "Improved Blood Pressure Regulation",
+      "Cardiovascular Protection"
+    ]
+  },
+  {
+    id: 17,
+    name: "Dapastart-10",
+    image: "/products/dapastart-10.jpeg",
+    description: "SGLT2 inhibitor used for controlling blood sugar levels in type 2 diabetes",
+    category: "Diabetes Care",
+    composition: "Dapagliflozin Tablets 10 mg",
+    uses: [
+      "Type 2 Diabetes Management",
+      "Blood Sugar Control",
+      "Improved Kidney Function",
+      "Heart Failure Risk Reduction"
+    ]
+  },
+  {
+    id: 18,
+    name: "Voglipran-GM2",
+    image: "/products/voglipran-gm2.jpeg",
+    description: "Triple combination anti-diabetic medication for enhanced glycemic control",
+    category: "Diabetes Care",
+    composition: "Voglibose, Glimepiride & Metformin HCl (ER)",
+    uses: [
+      "Type 2 Diabetes",
+      "Post-meal Blood Sugar Control",
+      "Improved Insulin Secretion",
+      "Delayed Glucose Absorption"
+    ]
+  },
+  {
+    id: 19,
+    name: "Voglipran-GM1",
+    image: "/products/voglipran-gm1.jpeg",
+    description: "Combination anti-diabetic formulation for managing blood glucose levels",
+    category: "Diabetes Care",
+    composition: "Voglibose, Glimepiride & Metformin HCl (ER)",
+    uses: [
+      "Type 2 Diabetes",
+      "Postprandial Sugar Control",
+      "Improved Insulin Sensitivity",
+      "Better Glycemic Balance"
+    ]
+  },
+  {
+    id: 20,
+    name: "Prochalk-D Protein Powder",
+    image: "/products/prochalk-d.jpeg",
+    description: "Nutritional supplement enriched with protein, vitamins, and minerals for overall health",
+    category: "Diabetes Care",
+    composition: "Protein, Vitamins, Calcium, Zinc, Minerals & DHA",
+    uses: [
+      "Nutritional Supplement",
+      "Bone Strength",
+      "Energy Boost",
+      "General Health Support"
+    ]
+  },
+  {
+    id: 21,
+    name: "Multiblez",
+    image: "/products/multiblez.jpeg",
+    description: "Multivitamin and multimineral supplement with antioxidant properties",
+    category: "General Medicine",
+    composition: "Antioxidants, Multivitamins & Multiminerals",
+    uses: [
+      "Nutritional Deficiency",
+      "Immunity Boost",
+      "Antioxidant Support",
+      "General Wellbeing"
+    ]
+  },
+  {
+    id: 23,
+    name: "Prochalk Protein Powder",
+    image: "/products/prochalk-pw.jpeg",
+    description: "Wholesome nutritional supplement for daily protein and mineral intake",
+    category: "Gynecology",
+    composition: "Protein, Vitamins, Calcium, Zinc, Minerals & DHA",
+    uses: [
+      "Nutritional Support",
+      "Muscle Strength",
+      "Bone Health",
+      "Energy & Immunity Boost"
+    ]
+  },
+  {
+    id: 24,
+    name: "Ferrostart-XT",
+    image: "/products/ferrostart-xt.jpeg",
+    description: "Iron supplement for treating iron deficiency and anemia",
+    category: "Gynecology",
+    composition: "Ferrous Ascorbate, Folic Acid & Zinc",
+    uses: [
+      "Iron Deficiency Anemia",
+      "Hemoglobin Improvement",
+      "Pregnancy Support",
+      "Nutritional Supplement"
     ]
   }
 ];

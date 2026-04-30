@@ -29,8 +29,8 @@ export default function Navigation() {
               className="h-20 w-auto rounded-lg object-contain shadow-lg"
             />
             <div className="flex flex-col">
-              <span className="text-xl font-black text-blue-950 leading-none tracking-tight">CADOMACK</span>
-              <span className="text-[10px] text-emerald-600 font-semibold tracking-widest uppercase">Pharma</span>
+              {/* <span className="text-xl font-black text-blue-950 leading-none tracking-tight">CADOMACK</span>
+              <span className="text-[10px] text-emerald-600 font-semibold tracking-widest uppercase">Pharma</span> */}
             </div>
           </Link>
 

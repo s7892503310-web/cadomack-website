@@ -122,8 +122,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-xl font-bold text-blue-950 mb-2">Phone Line</h3>
                     <p className="text-slate-600 leading-relaxed">
-                      <a href="tel:+919876543210" className="hover:text-emerald-600 transition-colors">+91 98765 43210</a><br />
-                      <a href="tel:+918012345678" className="hover:text-emerald-600 transition-colors">+91 80 1234 5678</a> (Landline)
+                      <a href="tel:+919876543210" className="hover:text-emerald-600 transition-colors">+91 98453 02211</a><br />
+                      <a href="tel:+918012345678" className="hover:text-emerald-600 transition-colors">+91 98453 02277</a>
                     </p>
                   </div>
                 </div>
@@ -136,8 +136,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-xl font-bold text-blue-950 mb-2">Email Support</h3>
                     <p className="text-slate-600 leading-relaxed">
-                      <a href="mailto:info@cadomack.in" className="hover:text-emerald-600 transition-colors">info@cadomack.in</a><br />
-                      <a href="mailto:sales@cadomack.in" className="hover:text-emerald-600 transition-colors">sales@cadomack.in</a>
+                      <a href="mailto:info@cadomack.in" className="hover:text-emerald-600 transition-colors">cadomackpharma@gmail.com</a><br />
                     </p>
                   </div>
                 </div>

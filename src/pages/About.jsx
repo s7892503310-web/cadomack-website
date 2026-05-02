@@ -17,16 +17,20 @@ export default function About() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-20">
             <div>
-              <div className="rounded-2xl shadow-2xl bg-gradient-to-br from-blue-100 via-emerald-100 to-teal-100 p-12 h-96 flex items-center justify-center relative overflow-hidden">
+              <div className="rounded-2xl shadow-2xl bg-gradient-to-br from-blue-100 via-emerald-100 to-teal-100 p-4 md:p-6 lg:p-8 h-64 md:h-80 lg:h-96 flex items-center justify-center relative overflow-hidden">
+
+                {/* Background blobs */}
                 <div className="absolute inset-0 opacity-20">
-                  <div className="absolute top-10 right-10 w-40 h-40 bg-blue-300 rounded-full blur-3xl"></div>
-                  <div className="absolute bottom-0 left-0 w-40 h-40 bg-emerald-300 rounded-full blur-3xl"></div>
+                  <div className="absolute top-10 right-10 w-32 md:w-40 h-32 md:h-40 bg-blue-300 rounded-full blur-3xl"></div>
+                  <div className="absolute bottom-0 left-0 w-32 md:w-40 h-32 md:h-40 bg-emerald-300 rounded-full blur-3xl"></div>
                 </div>
-                <div className="relative z-10 text-center">
-                  <div className="text-6xl mb-4">🔬</div>
-                  <p className="text-xl font-bold text-blue-950">Advanced Pharmaceutical Laboratory</p>
-                  <p className="text-slate-600 mt-2">WHO-GMP Certified Facilities</p>
-                </div>
+
+                {/* Image */}
+                <img
+                  src="/about-us.jpg"
+                  alt="About us"
+                  className="w-full h-full object-cover rounded-xl shadow-lg relative z-10"
+                />
               </div>
             </div>
             <div>

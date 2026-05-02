@@ -320,5 +320,33 @@ export const products = [
       "Pregnancy Support",
       "Nutritional Supplement"
     ]
+  },
+  {
+    id: 25,
+    name: "P Prozol DSR",
+    image: "/products/pprozol-dsr.jpeg",
+    description: "Combination therapy for effective management of acid reflux and gastrointestinal disorders",
+    category: "General Medicine",
+    composition: "Pantoprazole (Enteric Coated) & Domperidone (SR)",
+    uses: [
+      "Gastroesophageal Reflux Disease (GERD)",
+      "Acidity & Heartburn Relief",
+      "Nausea & Vomiting Control",
+      "Improved Gastric Motility"
+    ]
+  },
+  {
+    id: 26,
+    name: "P Prozol-40",
+    image: "/products/pprozol-40.jpeg",
+    description: "Proton pump inhibitor used to reduce stomach acid and treat acid-related disorders",
+    category: "General Medicine",
+    composition: "Pantoprazole Gastro Resistant Tablets IP 40mg",
+    uses: [
+      "Acidity & Heartburn",
+      "Peptic Ulcers",
+      "GERD (Acid Reflux)",
+      "Zollinger-Ellison Syndrome"
+    ]
   }
 ];

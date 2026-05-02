@@ -109,7 +109,7 @@ export default function Products() {
 
                     {/* CTA */}
                     <button
-                      onClick={() => window.open('https://wa.me/919876543210?text=I am interested in ' + product.name, '_blank')}
+                      onClick={() => window.open('https://wa.me/919845302211?text=I am interested in ' + product.name, '_blank')}
                       className="w-full bg-gradient-to-r from-emerald-500 to-teal-600 text-white py-3 rounded-lg font-bold hover:shadow-lg transition-all flex items-center justify-center gap-2"
                     >
                       <ShoppingCart className="w-5 h-5" />

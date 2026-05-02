@@ -73,7 +73,7 @@ export default function Home() {
                   </div>
                   <div className="rounded-3xl bg-slate-950/90 p-5 text-white shadow-xl">
                     <p className="text-sm uppercase tracking-[0.25em] text-slate-300">Active in</p>
-                    <p className="text-3xl font-black mt-3">Karnataka</p>
+                    <p className="text-3xl font-black mt-3">India</p>
                   </div>
                 </div>
               </div>
